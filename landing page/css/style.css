@@ -1,0 +1,302 @@
+/* Frame */
+
+.frame{
+
+position: relative;
+width: 1440px;
+height: 1255px;
+
+}
+
+/* Top Writers */
+
+.topwriters{
+
+position: absolute;
+width: 331px;
+height: 47px;
+left: 1379px;
+top: 2380px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+text-align: center;
+
+color: #1976D3;
+
+opacity: 0.8;
+
+}
+
+/* see */
+
+.see{
+
+position: absolute;
+width: 90px;
+height: 30px;
+left: 2568px;
+top: 2388px;
+
+
+}
+
+/* Group 1 */
+
+.group1{
+
+position: absolute;
+width: 302px;
+height: 421px;
+left: 1379px;
+top: 2502px;
+
+
+}
+
+/* Ellipse 1 */
+
+.ellipse1{
+
+position: absolute;
+width: 95px;
+height: 95px;
+left: 1482px;
+top: 2560px;
+
+background: #1976D3;
+
+}
+
+/* Group 2 */
+
+.group2{
+
+position: absolute;
+width: 302px;
+height: 421px;
+left: 1704px;
+top: 2499px;
+
+
+}
+
+/* Ellipse 2 */
+
+.ellipse2{
+
+position: absolute;
+width: 95px;
+height: 95px;
+left: 1807px;
+top: 2557px;
+background: #1976D3;
+
+}
+
+/* Group 3 */
+
+.group3{
+
+position: absolute;
+width: 302px;
+height: 421px;
+left: 2031px;
+top: 2499px;
+
+
+}
+
+/* Ellipse 3 */
+
+.ellipse3{
+
+position: absolute;
+width: 95px;
+height: 95px;
+left: 2134px;
+top: 2557px;
+
+background: #1976D3;
+
+}
+
+/* Group 4 */
+
+.group4{
+
+  
+position: absolute;
+width: 302px;
+height: 421px;
+left: 2360px;
+top: 2499px;
+
+
+}
+
+/* Ellipse 4 */
+.ellipse4{
+
+position: absolute;
+width: 95px;
+height: 95px;
+left: 2463px;
+top: 2557px;
+
+background: #1976D3;
+
+}
+
+/* clients */
+
+.clients{
+
+position: absolute;
+width: 387px;
+height: 47px;
+left: 1379px;
+top: 3041px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 130%;
+
+/* identical to box height, or 47px */
+
+text-align: center;
+
+color: #1976D3;
+
+opacity: 0.8;
+
+}
+
+/* Client card 1 */
+
+.clientcard1{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 627px;
+height: 281px;
+left: 1379px;
+top: 3152px;
+
+border: 1px solid #BDBDBD;
+border-radius: 10px;
+
+}
+
+/* Box 1 */
+
+.box1{
+
+position: absolute;
+width: 244px;
+height: 66px;
+left: 39px;
+top: 25px;
+
+}
+
+/* Box 2 */
+
+.box2{
+
+position: absolute;
+width: 515px;
+height: 96px;
+left: 30px;
+top: 113px;
+
+}
+
+/* box 3 */
+
+/* Auto layout */
+
+.box3{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 152px;
+height: 24px;
+left: 39px;
+top: 231px;
+
+}
+
+/* Client card 2 */
+
+.clientcard2{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 627px;
+height: 281px;
+left: 2031px;
+top: 3152px;
+
+border: 1px solid #BDBDBD;
+border-radius: 10px;
+
+}
+
+/* box A */
+
+.boxa{
+
+position: absolute;
+width: 244px;
+height: 66px;
+left: 35px;
+top: 25px;
+
+}
+
+/* Box B */
+
+.boxb{
+
+position: absolute;
+width: 515px;
+height: 96px;
+left: 35px;
+top: 113px;
+
+}
+
+/* Box C */
+
+/* Auto layout */
+
+.boxc{
+  
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 152px;
+height: 24px;
+left: 35px;
+top: 231px;
+ 
+}

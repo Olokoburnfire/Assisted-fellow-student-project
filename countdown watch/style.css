@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8%;
+    width: 100vw;
+    height: 100vh;
+    margin: .25em auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #f0f8ff;
+    color: black;
+    font-size: 10em;
+    border: 5px solid red;
+}
+
+.timer{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.timer div{
+    flex-basis: 100px;
+}
+
+.timer div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}

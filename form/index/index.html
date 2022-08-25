@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css files -->
+  <link rel="stylesheet" href="mainstyle.css">
+  <link rel="stylesheet" href="firstformstyle.css">
+
+  <title>Profile Filling 1</title>
+</head>
+<body>
+  <header>
+    <div class="top-logo">
+      <img src="logo" alt="scrybe-it logo">
+    </div>
+    <div class="deco">
+      <p></p>
+    </div>
+  </header>
+  <main class="contentContainer">
+    <section class="contentWrapper">
+      <!-- nav section -->
+      <div class="first-section">
+        
+        <nav>
+          <h1>Personal Info</h1>
+          <ul>
+            
+            <li class="active">
+              <a href="#">
+                <span class="num">1</span>
+                <i></i>
+                <span>Personal info</span>
+              </a>
+            </li>
+            <div class="vrline"></div>
+
+            <a href="#"></a>
+            <li>
+              <a href="#">
+                <span class="num">2</span>
+                <i></i>
+                <span>Professional info</span>
+              </a>
+            </li>
+            <div class="vrline"></div>
+
+            <li>
+              <a href="#">
+                <span class="num">3</span>
+                <i></i>
+                <span>Linked Accounts</span>
+              </a>
+            </li>
+            <div class="vrline"></div>
+
+            <li>
+              <a href="#">
+                <span class="num">4</span>
+                <i></i>
+                <span>Verified Account</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- form section -->
+      <div class="second-section">
+        <form action="#" class='firstform'>
+          <!-- first form item -->
+          <div class="form-item first-form-item">
+            <label for="profile-picture"> Profile Picture</label>
+            <input type="file" name="profile-picture" id="profile-picture">
+          </div>
+
+          <!-- second form item -->
+          <div class="form-item second-form-item">
+            <label for="Fullname"> Fullname</label>
+            <div>
+              <input type="text" name="Fullname" id="Fullname" placeholder="Enter frist name here">
+              <input type="text" name="Fullname" id="Fullname" placeholder="Enter last name here">
+            </div>
+          </div>
+
+          <!-- third form item -->
+          <div class="form-item third-form-item">
+            <label for="location"> Location</label>
+            <div>
+              <label for="country">
+                Country of residence
+                <select name="country" id="country" >
+                  <option value="country"> </option>
+                </select>
+              </label>
+              <label for="state">
+                State of residence
+                <select name="state" id="state" >
+                  <option value="state"> </option>
+                </select>
+              </label>
+            </div>
+          </div>
+          
+          <!-- fourth form item -->
+          <div class="form-item fourth-form-item">
+            <label for="description"> Description</label>
+            <textarea name="description" id="description" placeholder="Enter description about yourself"></textarea>
+          </div>
+
+          <!-- fifth form item -->
+          <div class="form-item fifth-form-item">
+            <label for="language"> Language</label>
+            <div>
+              <select name="language" id="language" >
+                <option value="language">
+                  select language
+                </option>
+              </select>
+              <select name="degree" id="degree">
+                <option value="degree">
+                  Choose degree of fluency
+                </option>
+              </select>
+            </div>
+          </div>
+
+        </form>
+        <div class="btns">
+          <a href="index.html">
+            <span>&#8249;</span>
+            <span>Back</span>
+          </a>
+          <div class="right-btns">
+            <a href="#" id="skip"> Skip step</a>
+            <a href="#" id="next">
+              <span>Next</span>
+              <span>&#8250;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="fcontainer">
+    <div class="fwrapper">
+      <div class="bottom-logo">
+        <img src="logo" alt="scrybe-it logo">
+      </div>
+      <div class="mid">
+        <ul class="mid-items-wrapper">
+          <li class="mid-item">Home</li>
+          <li class="mid-item">About</li>
+          <li class="mid-item">Unknown</li>
+        </ul>
+      </div>
+      <div class="ficons">
+        <i>a</i>
+        <i>b</i>
+        <i>c</i>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
